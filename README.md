@@ -1,6 +1,7 @@
 ﻿# Hierarchical Label Inference Incorporating Attribute Semantics in Attributed Networks (ICDM 2023)
 Code for paper---**H**ierarchical **L**abel **I**nference Incorporating Attribute Semantics in Attributed Networks.
-![在这里插入图片描述](https://img-blog.csdnimg.cn/56c901568d5e4fa9bee5abf62181a315.png#pic_center)
+![image](https://github.com/ki-ljl/HLI/assets/56509367/8d60f6a1-9759-4089-8e4b-1dbf525ec215)
+
 ## Code Overview
 ```bash
 HLI:.
@@ -24,7 +25,7 @@ HLI:.
 3. **pytorchtools**.py: This file is used to define the earlystopping mechanism.
 4. **requirements.txt**: Dependencies file.
 5. **data/**：Dataset folder.
-6. **src/main.py**: Public opinion concern prediction.
+6. **src/main.py**: Main file.
 7. **src/models.py**: Implementation of HLI.
 8. **src/util.py**: Defining various toolkits.
 ## Dependencies
@@ -58,18 +59,14 @@ cd src/
 python main.py --experiment full --dataset meta_Industrial_and_Scientific
 python main.py --experiment full --dataset meta_Arts_Crafts_and_Sewing
 ```
+![image](https://github.com/ki-ljl/HLI/assets/56509367/e3797faf-2e46-40c4-89a7-2e6c45eeb56a#pic_center)
+
 ### Semi-supervised Attribute Label Inference
 ```bash
 cd src/
 python main.py --experiment semi --dataset meta_Industrial_and_Scientific
 python main.py --experiment semi --dataset meta_Arts_Crafts_and_Sewing
 ```
-### Ablation Experiment
-```bash
-cd src/
-python main.py --experiment full --dataset meta_Industrial_and_Scientific --use_hiera_att False
-python main.py --experiment full --dataset meta_Industrial_and_Scientific --use_sibling_att False
-python main.py --experiment full --dataset meta_Industrial_and_Scientific --use_sfc False
-python main.py --experiment full --dataset meta_Industrial_and_Scientific --use_slp False
-```
+![image](https://github.com/ki-ljl/HLI/assets/56509367/8769e173-645a-44f1-a632-a6eb76f3d0ec)
+
 # Cite
