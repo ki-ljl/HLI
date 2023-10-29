@@ -53,6 +53,7 @@ print(val_mask.sum())
 print(test_mask.sum())
 
 graph = graph.to(device)
+graph_y = graph_y.to(device)
 label_graph = label_graph.to(device)
 in_feats = graph.x.shape[1]
 label_in_feats = label_graph.x.shape[1]
