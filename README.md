@@ -52,7 +52,7 @@ pip install -r requirements.txt
 ```
 ## Usage
 ### Dataset Preparation
-Due to the file size limitation of github, we uploaded the datasets to [Google Drive](https://drive.google.com/drive/folders/1Kbt2B8qEyG48A-TIbxO5bvpBuziC8DDd?usp=sharing). So download the dataset from Google Drive before you run the code.
+Due to the file size limitation of github, we uploaded the datasets to [Google Drive](https://drive.google.com/drive/folders/1Kbt2B8qEyG48A-TIbxO5bvpBuziC8DDd?usp=sharing). Please download the two **hash_vector_embeddings_2048.pkl** files and place them in the corresponding folders before running the code.
 ### Full-supervised Attribute Label Inference
 ```bash
 cd src/
