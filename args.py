@@ -7,9 +7,9 @@ import torch
 def args_parser():
     parser = argparse.ArgumentParser(description='hli')
 
-    parser.add_argument('--dataset', type=str, default='meta_Industrial_and_Scientific',
-                        help='dataset name', choices=['meta_Industrial_and_Scientific',
-                                                      'meta_Arts_Crafts_and_Sewing'])
+    parser.add_argument('--dataset', type=str, default='IS',
+                        help='dataset name', choices=['IS',
+                                                      'ACS'])
     parser.add_argument('--epochs', type=int, default=200, help='training epochs')
     parser.add_argument('--min_epochs', type=int, default=10, help='min training epochs')
     parser.add_argument('--lr', type=float, default=0.001, help='learning rate')

@@ -11,9 +11,9 @@ HLI:.
 │  requirements.txt
 │          
 ├─data            
-│  ├─meta_Arts_Crafts_and_Sewing
+│  ├─ACS
 │  │      
-│  └─meta_Industrial_and_Scientific
+│  └─IS
 │          
 └─src
     ├─main.py
@@ -56,16 +56,16 @@ Due to the file size limitation of github, we uploaded the datasets to [Google D
 ### Full-supervised Attribute Label Inference
 ```bash
 cd src/
-python main.py --experiment full --dataset meta_Industrial_and_Scientific
-python main.py --experiment full --dataset meta_Arts_Crafts_and_Sewing
+python main.py --experiment full --dataset IS
+python main.py --experiment full --dataset ACS
 ```
 ![image](https://github.com/ki-ljl/HLI/assets/56509367/e3797faf-2e46-40c4-89a7-2e6c45eeb56a#pic_center)
 
 ### Semi-supervised Attribute Label Inference
 ```bash
 cd src/
-python main.py --experiment semi --dataset meta_Industrial_and_Scientific
-python main.py --experiment semi --dataset meta_Arts_Crafts_and_Sewing
+python main.py --experiment semi --dataset IS
+python main.py --experiment semi --dataset ACS
 ```
 ![image](https://github.com/ki-ljl/HLI/assets/56509367/8769e173-645a-44f1-a632-a6eb76f3d0ec)
 

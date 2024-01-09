@@ -25,7 +25,6 @@ device = args.device
 
 graph, graph_y, label_num = get_graph(path=root_path, file_name=file_name)
 label_graph, h_adj, s_adj, ancestors = get_label_graph(path=root_path,
-                                                       add_edges=True,
                                                        file_name=file_name)
 
 print(graph)
