@@ -71,15 +71,12 @@ python main.py --experiment semi --dataset ACS
 
 # Cite
 ```
-@INPROCEEDINGS{10415698,
+@inproceedings{li2023hierarchical,
+  title={Hierarchical Label Inference Incorporating Attribute Semantics in Attributed Networks},
   author={Li, Junliang and Yang, Yajun and Hu, Qinghua and Wang, Xin and Gao, Hong},
-  booktitle={2023 IEEE International Conference on Data Mining (ICDM)}, 
-  title={Hierarchical Label Inference Incorporating Attribute Semantics in Attributed Networks}, 
+  booktitle={2023 IEEE International Conference on Data Mining (ICDM)},
+  pages={1091--1096},
   year={2023},
-  volume={},
-  number={},
-  pages={1091-1096},
-  keywords={Semantics;Data models;Data mining;Periodic structures;attribute inference;hierarchical inference;label semantics},
-  doi={10.1109/ICDM58522.2023.00129}
+  organization={IEEE}
 }
 ```
